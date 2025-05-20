@@ -114,13 +114,29 @@ body {
     } main{
         padding: 15px;
     }
+    section h2 {
+      font-size: 1.6rem;
+    }
+}
+    
+@media(max-width:480px){
+    nav ul{
+        flex-direction: column;
+    }
 
-      }
+    nav ul li {
+        margin: 10px;
+    }
 
-      section h2 {
-        font-size: 1.6rem;
-      }
-      
+    form input,form textarea {
+        padding: 8px;
+    }
+    form button:{
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+}
 
    
 
